@@ -1,9 +1,9 @@
 @import "../partials/colors";
+@import "../mixins/mixins.scss";
 
 header {
     background-color: $purple;
-    display: flex;
-    flex-wrap: wrap;
+    @include flexwrap;
     padding: 2em 8em;
     justify-content: space-between;
     align-items: center;

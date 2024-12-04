@@ -1,7 +1,8 @@
+@import "../mixins/mixins.scss";
+
 #secondSection {
     padding: 8em 1em;
-    display: flex;
-    flex-wrap: wrap;
+    @include flexwrap;
     justify-content: center;
     align-items: center;
 
